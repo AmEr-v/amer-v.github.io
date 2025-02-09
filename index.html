@@ -42,6 +42,14 @@
         #skills{
             font-size: x-large;
         }
+        #skills ul{
+            list-style-type: none;
+            margin-left: 20%;
+            color: white;
+        }
+        #skills h3{
+            margin-left: 20%;
+        }
         #about{
             font-size: x-large;
             text-align: justify;
@@ -56,6 +64,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 12%;
         }
         .badge-container iframe {
             width: 100%;
@@ -66,6 +75,10 @@
         }
         .certificates li a{
             color: white;
+            text-decoration: none;
+        }
+        .certificates ul{
+            list-style-type: none;
         }
     </style>
 </head>
@@ -93,10 +106,10 @@
     </section>
 
     <section id="skills" class="container my-5">
-        <h1 class="text-center">My Skills & Certificates</h1>
+        <h1 class="text-center">My Skills & Certificates</h1><br>
         <div class="row mt-4">
             <div class="col-md-6">
-                <h3>Skills</h3>
+                <h3 style="text-decoration: underline;">Skills</h3>
                 <ul>
                     <li>Network Security </li>
                     <li>Web Development</li>
@@ -107,7 +120,7 @@
                 </ul>
             </div>
             <div class="col-md-6 certificates">
-                <h3>Certificates</h3>
+                <h3 style="text-decoration: underline;">Certificates</h3>
                 <ul>
                     <li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-D0QOWZPWOJ.pdf" target="_blank">Pre Security</a></li>
                     <li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FIDK06SBDU.pdf" target="_blank">Security Engineer</a></li>
